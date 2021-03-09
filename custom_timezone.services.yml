@@ -1,0 +1,5 @@
+services:
+  custom_timezone_service:
+    class: Drupal\custom_timezone\Services\CurrentTime
+    arguments: ['@config.factory']
+
