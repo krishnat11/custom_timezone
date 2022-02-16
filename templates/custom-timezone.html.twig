@@ -1,0 +1,18 @@
+<section class='custom-time'>
+    <h1> Custom Time From TimeZone Module </h2>
+    <ul>
+    {% if currentData.currentCity %}
+        <li>
+            City : {{ currentData.currentCity }}
+        </li>
+    {% endif %}
+    {% if currentData.currentCountry %}
+        <li>
+            Country : {{ currentData.currentCountry }}
+        </li>
+    {% endif %}
+        <li>
+        {{ currentData.curentTime }}
+        </li>
+    </ul>
+</section>
