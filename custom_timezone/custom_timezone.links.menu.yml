@@ -1,6 +1,0 @@
-custom_timezone.settings_form:
-  title: 'TimeZone Settings Form'
-  route_name: custom_timezone.timezon_settings
-  description: 'Admin Form For TimeZone Setting'
-  parent: system.admin_config_system
-  weight: 99

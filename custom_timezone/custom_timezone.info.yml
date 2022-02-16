@@ -1,5 +1,0 @@
-name: Custom Timezone
-type: module
-description: Custom module for show current time
-core: '8.x'
-configure: custom_timezone.timezon_settings

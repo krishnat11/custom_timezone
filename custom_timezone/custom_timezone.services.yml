@@ -1,9 +1,0 @@
-services:
-  custom_timezone_service:
-    class: Drupal\custom_timezone\Services\CurrentTime
-    arguments: ['@config.factory','@date.formatter','@datetime.time']
-  cache_context.custom_current_time:
-    class: Drupal\custom_timezone\CacheContext\CustomCacheContext
-    arguments: ['@config.factory','@date.formatter','@datetime.time']
-    tags:
-      - { name: cache.context }
