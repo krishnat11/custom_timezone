@@ -1,0 +1,7 @@
+<?php
+
+function custom_timezone_theme($existing, $type, $theme, $path){
+    return [
+        'custom-timezone' => ['variables' => ['currentData' => NULL ]]
+          ];
+}
